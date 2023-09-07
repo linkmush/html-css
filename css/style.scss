@@ -1,0 +1,114 @@
+header {
+    background-color: #F0EFE9;
+    display: flex;
+    padding: 16px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 68px;
+
+        .bars {
+            font-size: 25px;
+            background-color: transparent;
+            border: none;
+
+            @media (min-width: 992px) {
+                display: none;
+            }
+        }
+
+        .menu {
+            display: none;
+            flex: 1;
+
+            @media (min-width: 992px) {
+                display: block;
+            }
+
+            .top-menu {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #DAD9D3;
+                padding-bottom: 10px;
+
+                .contact-information {
+                    display: flex;
+
+                    .phone {
+                        padding-right: 30px;
+                        margin-right: 28px;
+                        border-right: 1px solid #DAD9D3;
+                        font-family: "Inter";
+                        font-size: 1.2em;
+                        color: #191919;
+                        
+                        a {
+                            margin-right: 6px;
+                            color: #191919;
+
+                            &:hover {
+                                transition: 0.4s ease-in-out;
+                                color: darkorange;
+                            }
+                        }
+                    }
+
+                    .email {
+                        padding-right: 30px;
+                        margin-right: 29px;
+                        border-right: 1px solid #DAD9D3;
+                        font-family: "Inter";
+                        font-size: 1.2em;
+                        color: #191919;
+                        
+                        a {
+                            margin-right: 9px;
+                            color: #191919;
+
+                            &:hover {
+                                transition: 0.4s ease-in-out;
+                                color: darkorange;
+                            }
+                        }
+                        
+                    }
+
+                    .location {
+                        font-family: "Inter";
+                        font-size: 15px;
+                        font-size: 1.2em;
+                        color: #191919;
+
+                        a {
+                            margin-right: 8px;
+                            color: #191919;
+
+                            &:hover {
+                                transition: 0.4s ease-in-out;
+                                color: darkorange;
+                            }
+                        }
+                    }
+                }
+
+                .social-media {
+                    a {
+                        color: black;
+                        margin-left: 18px;
+                        font-size: 1.3em;
+
+                        &:hover {
+                            transition: 0.4s ease-in-out;
+                            color: darkorange;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+    }
+}
