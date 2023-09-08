@@ -10,7 +10,29 @@ html, body {
     border: 1px solid #f9d783;
     color: #191919;
     text-decoration: none;
-    padding: 8px 25px;
+    padding: 12px 25px;
+    font-weight: 545;
+    font-size: 16px;
+    border-radius: 40px;
+
+    #arrow {
+        margin-left: 5px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #191919;
+        border: 1px solid #191919;
+        color: #F0EFE9;
+    }
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+    text-decoration: none;
+    padding: 12px 25px;
     font-weight: 545;
     font-size: 16px;
     border-radius: 40px;
@@ -185,4 +207,75 @@ header {
         }
 
     }
+}
+
+.showcase {
+    background-color: #f0efe9;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    .content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+
+        @media (min-width: 1200px) {
+            text-align: left;
+        }
+
+        h1 {
+            font-family: "DM Sans";
+            font-size: 40px;
+            font-weight: 700;
+            color: #191919;
+
+            @media (min-width: 768px) {
+                font-size: 56px;
+            }
+
+            @media (min-width: 1400px) {
+                font-size: 86px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            margin-top: 35px;
+            margin-bottom: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: rgba(25,25,25,0.7 );
+
+            @media (min-width: 768px) {
+                font-size: 20px;
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+
+        a {
+            margin-right: 0px;
+            display: block;
+            margin-bottom: 20px;
+
+            @media (min-width: 768px) {
+                margin-right: 10px;
+                display: inline-block;
+            }
+        }
+
+    }
+    img {
+        display: none;
+        margin-right: -50px;
+
+        @media (min-width: 1200px) {
+            display: block;
+        }
+    }
+
+  }
 }
