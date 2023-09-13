@@ -341,3 +341,17 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 50px;
   margin-bottom: 92px;
 }
+
+.logos .container {
+  display: none;
+  justify-content: center;
+}
+@media (min-width: 1398px) {
+  .logos .container {
+    display: flex;
+  }
+}
+.logos .container img {
+  margin-top: 72px;
+  padding-right: 50px;
+}

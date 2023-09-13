@@ -391,3 +391,20 @@ header {
         margin-bottom: 92px;
     }
 }
+
+.logos {
+    .container {
+        display: none;
+        justify-content: center;
+
+        @media (min-width: 1398px) {
+            display: flex;
+
+        }
+
+        img {
+            margin-top: 72px;
+            padding-right: 50px;
+        }
+    }
+}
