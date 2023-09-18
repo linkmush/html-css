@@ -249,6 +249,13 @@ header {
 
 .showcase {
     background-color: #f0efe9;
+    position: relative;
+
+    .backround-lines {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
 
     .container {
         display: flex;
