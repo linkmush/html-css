@@ -325,7 +325,7 @@ header {
         display: none;
         margin-right: -50px;
 
-        @media (min-width: 1200px) {
+        @media (min-width: 1235px) {
             display: block;
         }
     }
@@ -529,7 +529,12 @@ header {
         position: relative;
 
         .founder {
+            display: none;
             position: relative;
+
+            @media (min-width: 1400px) {
+                display: inline;
+            }
           
             .picture-woman {
                 width: 533px;
@@ -581,6 +586,84 @@ header {
                 }
             }
         }
+
+        .consulting-credit {
+            width: 532px;
+            height: 589.3px;
+            margin-top: 121px;
+
+            @media (min-width: 1400px) {
+                margin-left: 199px;
+            }
+
+            .about-company-text {
+
+                #header {
+                    font-family: "Inter";
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    color: #F94D1C;
+
+                }
+
+                h2 {
+                    font-family: "DM Sans";
+                    font-size: 45px;
+                    font-weight: bold;
+                    line-height: 54px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 32px;
+                    color: rgba(25,25,25,0.7 );
+                }
+            }
+
+            .about-company-buttons {
+                display: flex;
+                
+                .btn-black {
+                    width: 180px;
+                    height: 56px;
+                }
+
+                .play-video {
+                    width: 48px;
+                    height: 48px;
+                    border-color: #191919;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 50px;
+                    text-decoration: none;
+                    color: #191919;
+                    margin-top: 2px;
+                    margin-left: 39px;
+
+                    &:hover {
+                        background-color: #f9d783;
+                        border: 1px solid #f9d783;
+                        color: #191919;
+                        transition: .3s ease-in-out;
+                    }
+                }
+
+                .intro-video {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 16px;
+                    color: #191919;
+                    margin-left: 16px;
+                    margin-top: 15px;
+                }
+            }
+        }
     }
 }
 
@@ -591,13 +674,13 @@ header {
     padding-bottom: 106px;
 
     .background-wavy-lines {
-        visibility: hidden;
+        display: none;
         position: absolute;
         bottom: 60px;
         right: 0;
 
         @media (min-width: 1650px) {
-            visibility: visible;
+            display: inline;
         }
         
     }
@@ -623,6 +706,19 @@ header {
                 outline: none;
                 border: 1px solid #DAD9D3;
                 margin-right: 20px;
+                width: 136px;
+
+                @media (min-width: 1400px) {
+                    color: #191919;
+                    text-decoration: none;
+                    padding: 12px 25px;
+                    font-size: 16px;
+                    border-radius: 25px;
+                    outline: none;
+                    border: 1px solid #DAD9D3;
+                    margin-right: 20px;
+                    width: 308px;
+                }
             }
         }
     }
