@@ -452,6 +452,58 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   }
 }
 
+.about-company .container {
+  display: flex;
+  position: relative;
+}
+.about-company .container .founder {
+  position: relative;
+}
+.about-company .container .founder .picture-woman {
+  width: 533px;
+  height: 615px;
+  z-index: 1;
+  margin-top: 122px;
+  margin-bottom: 120px;
+}
+.about-company .container .founder .square-picture {
+  position: absolute;
+  width: 368px;
+  height: 180px;
+  top: 0;
+  left: 0;
+  margin-left: -56px;
+  margin-top: 515px;
+  z-index: 2;
+  background: #beebff;
+}
+.about-company .container .founder .square-picture h4 {
+  width: 247px;
+  height: 23px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #191919;
+  margin-top: 33px;
+  margin-left: 24px;
+}
+.about-company .container .founder .square-picture p {
+  width: 327px;
+  height: 47px;
+  font-family: "Inter";
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #191919;
+  margin-top: 22px;
+  margin-left: 24px;
+}
+.about-company .container .founder .square-picture .redtext {
+  color: #F94D1C;
+}
+
 .newsletter {
   background-color: #F0EFE9;
   position: relative;
