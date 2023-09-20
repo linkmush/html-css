@@ -373,6 +373,18 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .features .container {
   display: flex;
 }
+@media (min-width: 600px) {
+  .features .container {
+    border-color: rgba(25, 25, 25, 0.2);
+    border-width: 1.2000000477px;
+    border-style: solid;
+    border-radius: 2px;
+    width: 1700px;
+    height: 700px;
+    margin-top: 80px;
+    justify-content: center;
+  }
+}
 .features .container .section-title-button p {
   font-family: "Inter";
   font-size: 18px;
@@ -406,50 +418,42 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   }
 }
 .features .container .feature-advice {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  display: none;
+}
+@media (min-width: 1234px) {
+  .features .container .feature-advice {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+.features .container .feature-advice .child-1 {
+  margin-top: 190px;
   margin-left: 103px;
-  margin-top: 170px;
+}
+.features .container .feature-advice .child-2 {
+  margin-left: 103px;
+  margin-top: -80px;
 }
 .features .container .feature-advice article img {
-  display: none;
   width: 40px;
   height: 40px;
   border-width: 1px;
   margin-bottom: 28px;
 }
-@media (min-width: 1286px) {
-  .features .container .feature-advice article img {
-    display: grid;
-  }
-}
 .features .container .feature-advice article h3 {
-  display: none;
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-@media (min-width: 1286px) {
-  .features .container .feature-advice article h3 {
-    display: grid;
-  }
-}
 .features .container .feature-advice article p {
-  display: none;
   font-family: "Inter";
   font-size: 16px;
   font-weight: normal;
   line-height: 25px;
   font-style: normal;
   color: rgba(25, 25, 25, 0.7);
-  margin-bottom: 61px;
-}
-@media (min-width: 1286px) {
-  .features .container .feature-advice article p {
-    display: grid;
-  }
 }
 
 .about-company .container {
@@ -465,6 +469,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   z-index: 1;
   margin-top: 122px;
   margin-bottom: 120px;
+  margin-left: 156px;
 }
 .about-company .container .founder .square-picture {
   position: absolute;
@@ -472,7 +477,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   height: 180px;
   top: 0;
   left: 0;
-  margin-left: -56px;
+  margin-left: 100px;
   margin-top: 515px;
   z-index: 2;
   background: #beebff;

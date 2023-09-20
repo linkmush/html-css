@@ -428,6 +428,17 @@ header {
     .container {
         display: flex;
 
+        @media (min-width: 600px) {
+            border-color: rgba(25,25,25,0.2 );
+            border-width: 1.2000000476837158px;
+            border-style: solid;
+            border-radius: 2px;
+            width: 1700px;
+            height: 700px;
+            margin-top: 80px;
+            justify-content: center;
+        }
+
         .section-title-button {
 
             p {
@@ -466,50 +477,46 @@ header {
         }
 
         .feature-advice {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-            margin-left: 103px;
-            margin-top: 170px;
+            display: none;
+
+            @media (min-width: 1234px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .child-1 {
+                margin-top: 190px;
+                margin-left: 103px;
+            }
+
+            .child-2 {
+                margin-left: 103px;
+                margin-top: -80px;
+            }
             
             article {
                 img {
-                    display: none;
                     width: 40px;
                     height: 40px;
                     border-width: 1px;
                     margin-bottom: 28px;
-
-                    @media (min-width: 1286px) {
-                        display: grid;
-                    }
                 }
 
                 h3 {
-                    display: none;
                     font-family: "DM Sans";
                     font-size: 22px;
                     font-weight: bold;
                     margin-bottom: 15px;
-
-                    @media (min-width: 1286px) {
-                        display: grid;
-                    }
                 }
 
                 p {
-                    display: none;
                     font-family: "Inter";
                     font-size: 16px;
                     font-weight: normal;
                     line-height: 25px;
                     font-style: normal;
                     color: rgba(25,25,25,0.7 );
-                    margin-bottom: 61px;
-
-                    @media (min-width: 1286px) {
-                        display: grid;
-                    }
                 }
             }
         }
@@ -530,6 +537,7 @@ header {
                 z-index: 1;
                 margin-top: 122px;
                 margin-bottom: 120px;
+                margin-left: 156px;
             }
 
             .square-picture {
@@ -538,7 +546,7 @@ header {
                 height: 180px;
                 top: 0;
                 left: 0;
-                margin-left: -56px;
+                margin-left: 100px;
                 margin-top: 515px;
                 z-index: 2;
                 background: #beebff;
