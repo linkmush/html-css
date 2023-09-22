@@ -226,7 +226,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 @media (min-width: 860px) {
   .showcase .backround-lines {
-    display: inline;
+    display: block;
   }
 }
 .showcase .container {
@@ -290,7 +290,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   display: none;
   margin-right: -50px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1430px) {
   .showcase .container img {
     display: block;
   }

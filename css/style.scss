@@ -260,7 +260,7 @@ header {
         z-index: -1;
 
         @media (min-width: 860px) {
-            display: inline;
+            display: block;
         }
     }
 
@@ -325,7 +325,7 @@ header {
         display: none;
         margin-right: -50px;
 
-        @media (min-width: 1200px) {
+        @media (min-width: 1430px) {
             display: block;
         }
     }
