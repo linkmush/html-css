@@ -810,3 +810,156 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     width: 308px;
   }
 }
+
+.footer {
+  background-color: #0E1021;
+  position: relative;
+  z-index: 0;
+}
+.footer .background-lines-white-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .container .footer-logo-text {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-logo-text a {
+  width: 168px;
+  height: 54.3px;
+  margin-bottom: 29px;
+  margin-top: 100px;
+}
+.footer .container .footer-logo-text p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 26px;
+  width: 309px;
+  height: 125px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .container .footer-objects {
+  display: flex;
+  flex-direction: row;
+}
+.footer .container .footer-objects .footer-company {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-objects .footer-company h3 {
+  width: 151.3px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 132px;
+  margin-left: 105px;
+  margin-bottom: 41px;
+}
+.footer .container .footer-objects .footer-company a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 105px;
+}
+.footer .container .footer-objects .footer-Help {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-objects .footer-Help h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 132px;
+  margin-bottom: 38px;
+  margin-left: 60px;
+}
+.footer .container .footer-objects .footer-Help a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 60px;
+  white-space: nowrap;
+}
+.footer .container .footer-objects .footer-Resources {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-objects .footer-Resources h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 132px;
+  margin-bottom: 38px;
+  margin-left: 63px;
+}
+.footer .container .footer-objects .footer-Resources a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 65px;
+  white-space: nowrap;
+}
+.footer .container .footer-objects .footer-Link {
+  display: flex;
+  flex-direction: column;
+}
+.footer .container .footer-objects .footer-Link h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 132px;
+  margin-bottom: 36px;
+  margin-left: 106px;
+}
+.footer .container .footer-objects .footer-Link a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 106px;
+}
