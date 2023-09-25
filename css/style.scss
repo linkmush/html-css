@@ -922,6 +922,10 @@ header {
         bottom: 0px;
         right: 0px;
         z-index: -1;
+
+        @media (max-width: 1170px) {
+            display: none;
+        }
     }
 
     .container {
@@ -930,8 +934,12 @@ header {
         align-items: center;
 
         .footer-logo-text {
-            display: flex;
-            flex-direction: column;
+            display: none;
+
+            @media (min-width: 1400px) {
+                display: flex;
+                flex-direction: column;
+            }
 
             a {
                 width: 168px;
@@ -949,6 +957,7 @@ header {
                 width: 309px;
                 height: 125px;
                 color: rgba(255,255,255,0.7 );
+                margin-bottom: 111px;
             }
         }
 
@@ -956,9 +965,18 @@ header {
             display: flex;
             flex-direction: row;
 
+            @media (max-width: 1000px) {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
             .footer-company {
                 display: flex;
                 flex-direction: column;
+
+                @media (max-width: 1000px) {
+                    margin-left: -45px;
+                }
                 
                 h3 {
                     width: 151.3px;
@@ -970,9 +988,13 @@ header {
                     font-style: normal;
                     text-align: left;
                     color: #ffffff;
-                    margin-top: 132px;
+                    margin-top: 30px;
                     margin-left: 105px;
                     margin-bottom: 41px;
+
+                    @media (max-width: 600px) {
+                        font-size: 15px;
+                    }
                 }
 
                 a {
@@ -985,6 +1007,15 @@ header {
                     text-align: left;
                     color: rgba(255,255,255,0.7 );
                     margin-left: 105px;
+
+                    @media (max-width: 600px) {
+                        font-size: 12px;
+                    }
+
+                    &:hover {
+                        transition: 0.4s ease-in-out;
+                        color: darkorange;
+                    }
                 }
             }
 
@@ -1000,9 +1031,13 @@ header {
                     font-style: normal;
                     text-align: left;
                     color: #ffffff;
-                    margin-top: 132px;
+                    margin-top: 30px;
                     margin-bottom: 38px;
                     margin-left: 60px;
+
+                    @media (max-width: 600px) {
+                        font-size: 15px;
+                    }
                 }
 
                 a {
@@ -1016,12 +1051,25 @@ header {
                     color: rgba(255,255,255,0.7 );
                     margin-left: 60px;
                     white-space: nowrap;
+
+                    @media (max-width: 600px) {
+                        font-size: 12px;
+                    }
+
+                    &:hover {
+                        transition: 0.4s ease-in-out;
+                        color: darkorange;
+                    }
                 }
             }
 
             .footer-Resources {
                 display: flex;
                 flex-direction: column;
+
+                @media (max-width: 1000px) {
+                    margin-left: -2px;
+                }
 
                 h3 {
                     font-family: "DM Sans";
@@ -1031,9 +1079,13 @@ header {
                     font-style: normal;
                     text-align: left;
                     color: #ffffff;
-                    margin-top: 132px;
+                    margin-top: 30px;
                     margin-bottom: 38px;
                     margin-left: 63px;
+
+                    @media (max-width: 600px) {
+                        font-size: 15px;
+                    }
                 }
 
                 a {
@@ -1047,12 +1099,25 @@ header {
                     color: rgba(255,255,255,0.7 );
                     margin-left: 65px;
                     white-space: nowrap;
+
+                    @media (max-width: 600px) {
+                        font-size: 12px;
+                    }
+
+                    &:hover {
+                        transition: 0.4s ease-in-out;
+                        color: darkorange;
+                    }
                 }
             }
 
             .footer-Link {
                 display: flex;
                 flex-direction: column;
+
+                @media (max-width: 1000px) {
+                    margin-left: -45px;
+                }
 
                 h3 {
                     font-family: "DM Sans";
@@ -1062,9 +1127,13 @@ header {
                     font-style: normal;
                     text-align: left;
                     color: #ffffff;
-                    margin-top: 132px;
+                    margin-top: 30px;
                     margin-bottom: 36px;
                     margin-left: 106px;
+
+                    @media (max-width: 600px) {
+                        font-size: 15px;
+                    }
                 }
 
                 a {
@@ -1077,7 +1146,67 @@ header {
                     text-align: left;
                     color: rgba(255,255,255,0.7 );
                     margin-left: 106px;
+
+                    @media (max-width: 600px) {
+                        font-size: 12px;
+                        white-space: nowrap;
+                    }
+
+                    &:hover {
+                        transition: 0.4s ease-in-out;
+                        color: darkorange;
+                    }
                 }
+            }
+        }
+    }
+}
+
+.footer-bottom {
+    display: flex;
+    background-color: #0E1021;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid RGBA(255,255,255,0.2 );
+
+        .bottom-text {
+
+            p {
+                font-family: "Inter";
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 26px;
+                font-style: normal;
+                text-align: left;
+                color: rgba(255,255,255,0.7 );
+                margin-top: 30px;
+
+                @media (max-width: 700px) {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .social-media {
+
+            a {
+                color: #ffffff;
+                margin-left: 18px;
+                font-size: 1.3em;
+                margin-top: 35px;
+
+                &:hover {
+                    transition: 0.4s ease-in-out;
+                    color: darkorange;
+                }
+
+                @media (max-width: 800px) {
+                    display: none;
+                }
+
             }
         }
     }
