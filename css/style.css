@@ -759,6 +759,61 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 221px;
 }
 
+.why-choose-us .container {
+  display: flex;
+}
+.why-choose-us .container .header-tags h2 {
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.why-choose-us .container .header-tags p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+}
+.why-choose-us .container .header-tags .article-list {
+  display: flex;
+}
+.why-choose-us .container .header-tags .article-list .thumbs-up {
+  width: 32px;
+  height: 32px;
+  border-color: rgba(25, 25, 25, 0.1);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.why-choose-us .container .header-tags .article-list h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+}
+.why-choose-us .container .header-tags .article-list p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.why-choose-us .container .why-choose-us-img img {
+  width: 645px;
+  height: 505px;
+}
+
 .newsletter {
   background-color: #F0EFE9;
   position: relative;
