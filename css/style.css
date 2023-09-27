@@ -795,6 +795,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 18px;
   margin-bottom: 48px;
+  white-space: nowrap;
 }
 .why-choose-us .container .header-tags .header-tags-p {
   font-family: "Inter";
