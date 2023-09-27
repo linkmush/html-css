@@ -759,9 +759,31 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 221px;
 }
 
+.why-choose-us {
+  position: relative;
+  z-index: 0;
+}
+.why-choose-us .backround-square {
+  width: 1057px;
+  height: 425px;
+  background: #f0efe9;
+  z-index: -2;
+  position: absolute;
+  right: 0;
+  margin-top: 266px;
+}
+@media (max-width: 1465px) {
+  .why-choose-us .backround-square {
+    display: none;
+  }
+}
 .why-choose-us .container {
   display: flex;
-  position: relative;
+}
+@media (max-width: 1399px) {
+  .why-choose-us .container .header-tags {
+    text-align: center;
+  }
 }
 .why-choose-us .container .header-tags h2 {
   font-family: "DM Sans";
@@ -788,6 +810,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+@media (max-width: 1399px) {
+  .why-choose-us .container .header-tags .article-list {
+    justify-content: center;
+    align-items: center;
+  }
 }
 .why-choose-us .container .header-tags .article-list .article-content {
   display: flex;
@@ -829,8 +857,14 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .why-choose-us .container .why-choose-us-img .two-women-img {
   width: 645px;
   height: 505px;
-  margin-left: 228px;
+  margin-left: 300px;
   margin-top: 88px;
+  z-index: -1;
+}
+@media (max-width: 1400px) {
+  .why-choose-us .container .why-choose-us-img .two-women-img {
+    display: none;
+  }
 }
 
 .newsletter {

@@ -856,12 +856,33 @@ header {
 }
 
 .why-choose-us {
+    position: relative;
+    z-index: 0;
+
+    .backround-square {
+        width: 1057px;
+        height: 425px;
+        background: #f0efe9;
+        z-index: -2;
+        position: absolute;
+        right: 0;
+        margin-top: 266px;
+
+        @media (max-width: 1465px) {
+            display: none;
+
+        }
+
+    }
 
     .container {
         display: flex;
-        position: relative;
 
         .header-tags {
+
+            @media (max-width: 1399px) {
+                text-align: center;   
+            }
 
             h2 {
                 font-family: "DM Sans";
@@ -890,6 +911,11 @@ header {
                 display: flex;
                 align-items: center;
                 margin-bottom: 20px;
+
+                @media (max-width: 1399px) {
+                    justify-content: center;
+                    align-items: center;    
+                }
 
                 .article-content {
                     display: flex;
@@ -941,8 +967,14 @@ header {
             .two-women-img {
                 width: 645px;
                 height: 505px;
-                margin-left: 228px;
+                margin-left: 300px;
                 margin-top: 88px;
+                z-index: -1;
+
+                @media (max-width: 1400px) {
+                    display: none;
+        
+                }
             }
         } 
     }       
