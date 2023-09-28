@@ -407,6 +407,179 @@ header {
     }
 }
 
+.Meet-out-team {
+    background-color: RGBA(240,208,130,0.93 );
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .header-members {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .header-members-text {
+                
+                p {
+                    font-family: "Inter";
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #f94d1c;
+                    margin-top: 121px;
+                }
+    
+                h2 {
+                    font-family: "DM Sans";
+                    font-size: 45px;
+                    font-weight: bold;
+                    line-height: 55px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 18px;
+                }
+            }
+
+            .btn-transparent {
+                width: 221px;
+                margin-top: 162px;
+            }
+        }
+
+        .team-members {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 98px;
+
+            .team-member-1 {
+
+                img {
+                    width: 308px;
+                    height: 420px;
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                    margin-top: 8px;
+                }
+            }
+            
+            .team-member-2 {
+
+                img {
+                    width: 307px;
+                    height: 420px;
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                    margin-top: 8px;
+                }
+            }
+
+            .team-member-3 {
+
+                img {
+                    width: 308px;
+                    height: 420px;
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                    margin-top: 8px;
+                }
+            }
+
+            .team-member-4 {
+
+                img {
+                    width: 307px;
+                    height: 420px;
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+}
+
 .logos {
     .container {
         display: none;
