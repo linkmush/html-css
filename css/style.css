@@ -524,6 +524,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 72px;
 }
 .Meet-our-team .container .dots-menu .dots-menu-li {
   width: 12px;
