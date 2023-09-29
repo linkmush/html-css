@@ -356,19 +356,19 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-bottom: 92px;
 }
 
-.Meet-out-team {
+.Meet-our-team {
   background-color: RGBA(240, 208, 130, 0.93);
 }
-.Meet-out-team .container {
+.Meet-our-team .container {
   display: flex;
   flex-direction: column;
 }
-.Meet-out-team .container .header-members {
+.Meet-our-team .container .header-members {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Meet-out-team .container .header-members .header-members-text p {
+.Meet-our-team .container .header-members .header-members-text p {
   font-family: "Inter";
   font-size: 18px;
   font-weight: 500;
@@ -378,7 +378,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #f94d1c;
   margin-top: 121px;
 }
-.Meet-out-team .container .header-members .header-members-text h2 {
+.Meet-our-team .container .header-members .header-members-text h2 {
   font-family: "DM Sans";
   font-size: 45px;
   font-weight: bold;
@@ -388,21 +388,46 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 18px;
 }
-.Meet-out-team .container .header-members .btn-transparent {
+@media (max-width: 800px) {
+  .Meet-our-team .container .header-members .header-members-text h2 {
+    font-size: 35px;
+  }
+}
+.Meet-our-team .container .header-members .btn-transparent {
   width: 221px;
   margin-top: 162px;
 }
-.Meet-out-team .container .team-members {
+@media (max-width: 600px) {
+  .Meet-our-team .container .header-members .btn-transparent {
+    display: none;
+  }
+}
+.Meet-our-team .container .team-members {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 98px;
 }
-.Meet-out-team .container .team-members .team-member-1 img {
+@media (max-width: 1400px) {
+  .Meet-our-team .container .team-members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .Meet-our-team .container .team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.Meet-our-team .container .team-members .team-member-1 img {
   width: 308px;
   height: 420px;
 }
-.Meet-out-team .container .team-members .team-member-1 h3 {
+.Meet-our-team .container .team-members .team-member-1 h3 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -412,7 +437,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 28px;
 }
-.Meet-out-team .container .team-members .team-member-1 p {
+.Meet-our-team .container .team-members .team-member-1 p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
@@ -422,11 +447,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: rgba(25, 25, 25, 0.7);
   margin-top: 8px;
 }
-.Meet-out-team .container .team-members .team-member-2 img {
+.Meet-our-team .container .team-members .team-member-2 img {
   width: 307px;
   height: 420px;
 }
-.Meet-out-team .container .team-members .team-member-2 h3 {
+.Meet-our-team .container .team-members .team-member-2 h3 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -436,7 +461,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 28px;
 }
-.Meet-out-team .container .team-members .team-member-2 p {
+.Meet-our-team .container .team-members .team-member-2 p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
@@ -446,11 +471,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: rgba(25, 25, 25, 0.7);
   margin-top: 8px;
 }
-.Meet-out-team .container .team-members .team-member-3 img {
+.Meet-our-team .container .team-members .team-member-3 img {
   width: 308px;
   height: 420px;
 }
-.Meet-out-team .container .team-members .team-member-3 h3 {
+.Meet-our-team .container .team-members .team-member-3 h3 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -460,7 +485,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 28px;
 }
-.Meet-out-team .container .team-members .team-member-3 p {
+.Meet-our-team .container .team-members .team-member-3 p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
@@ -470,11 +495,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: rgba(25, 25, 25, 0.7);
   margin-top: 8px;
 }
-.Meet-out-team .container .team-members .team-member-4 img {
+.Meet-our-team .container .team-members .team-member-4 img {
   width: 307px;
   height: 420px;
 }
-.Meet-out-team .container .team-members .team-member-4 h3 {
+.Meet-our-team .container .team-members .team-member-4 h3 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -484,7 +509,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-top: 28px;
 }
-.Meet-out-team .container .team-members .team-member-4 p {
+.Meet-our-team .container .team-members .team-member-4 p {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 500;
