@@ -1385,7 +1385,326 @@ header {
             }
         } 
     }       
-}   
+}
+
+.Article-News {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .article-news-header {
+            display: flex;
+            justify-content: space-between;
+
+            .article-news-header-text {
+
+                p {
+                    font-family: "Inter";
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #f94d1c;
+                    margin-top: 120px;
+
+                    @media (max-width: 900px) {
+                        margin-top: 50px;
+                    }
+                }
+    
+                h2 {
+                    font-family: "DM Sans";
+                    font-size: 45px;
+                    font-weight: bold;
+                    line-height: 55px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-bottom: 35px;
+
+                    @media (max-width: 900px) {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .btn-transparent {
+                margin-top: 161px;
+                width: 221px;
+                height: 52px;
+
+                @media (max-width: 900px) {
+                    margin-bottom: 5px;
+                }
+
+                @media (max-width: 421px) {
+                    width: 171px;
+                    height: 56px;
+                    margin-top: 200px;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .articles-main {
+            display: flex;
+            justify-content: space-between;
+
+            @media (max-width: 1400px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            @media (max-width: 421px) {
+                display: none;
+            }
+
+            .digitalization {
+
+                .image-women-main {
+                    position: relative;
+
+                    .image-main-square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        width: 56px;
+                        height: 64px;
+                        background: #f9d783;
+                        top: 16px;
+                        left: 16px;
+
+                        .image-main-square-numbers {
+                            font-family: "DM Sans";
+                            font-size: 22px;
+                            font-weight: bold;
+                            line-height: 33px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #191919;
+                            position: absolute;
+                            top: 35%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+    
+                        .image-main-square-text {
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 28px;
+                            font-style: normal;
+                            text-align: center;
+                            color: rgba(25,25,25,0.7 );
+                            position: absolute;
+                            top: 75%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+
+                #header {
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 21px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .Implement {
+
+                .image-text {
+                    position: relative;
+
+                    .image-main-square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        width: 56px;
+                        height: 64px;
+                        background: #f9d783;
+                        top: 16px;
+                        left: 16px;
+
+                        .image-main-square-numbers {
+                            font-family: "DM Sans";
+                            font-size: 22px;
+                            font-weight: bold;
+                            line-height: 33px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #191919;
+                            position: absolute;
+                            top: 35%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+    
+                        .image-main-square-text {
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 28px;
+                            font-style: normal;
+                            text-align: center;
+                            color: rgba(25,25,25,0.7 );
+                            position: absolute;
+                            top: 75%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+
+                #header {
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 21px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .Support-Modern {
+
+                .image-book {
+                    position: relative;
+
+                    .image-main-square {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        width: 56px;
+                        height: 64px;
+                        background: #f9d783;
+                        top: 16px;
+                        left: 16px;
+
+                        .image-main-square-numbers {
+                            font-family: "DM Sans";
+                            font-size: 22px;
+                            font-weight: bold;
+                            line-height: 33px;
+                            font-style: normal;
+                            text-align: center;
+                            color: #191919;
+                            position: absolute;
+                            top: 35%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+    
+                        .image-main-square-text {
+                            font-family: "Inter";
+                            font-size: 16px;
+                            font-weight: normal;
+                            line-height: 28px;
+                            font-style: normal;
+                            text-align: center;
+                            color: rgba(25,25,25,0.7 );
+                            position: absolute;
+                            top: 75%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+
+                #header {
+                    margin-top: 28px;
+                }
+
+                p {
+                    font-family: "Inter";
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 28px;
+                    font-style: normal;
+                    text-align: left;
+                    color: rgba(25,25,25,0.7 );
+                }
+
+                h3 {
+                    font-family: "DM Sans";
+                    font-size: 22px;
+                    font-weight: bold;
+                    line-height: 33px;
+                    font-style: normal;
+                    text-align: left;
+                    color: #191919;
+                    margin-top: 21px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .dots-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 66px;
+            margin-bottom: 90px;
+
+            .dots-menu-li {
+                width: 12px;
+                height: 12px;
+                opacity: 0.20;
+            }
+
+            .dots-menu-2 {
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+}
 
 .newsletter {
     background-color: #F0EFE9;

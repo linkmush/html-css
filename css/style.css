@@ -1211,6 +1211,287 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   }
 }
 
+.Article-News .container {
+  display: flex;
+  flex-direction: column;
+}
+.Article-News .container .article-news-header {
+  display: flex;
+  justify-content: space-between;
+}
+.Article-News .container .article-news-header .article-news-header-text p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: left;
+  color: #f94d1c;
+  margin-top: 120px;
+}
+@media (max-width: 900px) {
+  .Article-News .container .article-news-header .article-news-header-text p {
+    margin-top: 50px;
+  }
+}
+.Article-News .container .article-news-header .article-news-header-text h2 {
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  margin-bottom: 35px;
+}
+@media (max-width: 900px) {
+  .Article-News .container .article-news-header .article-news-header-text h2 {
+    font-size: 30px;
+  }
+}
+.Article-News .container .article-news-header .btn-transparent {
+  margin-top: 161px;
+  width: 221px;
+  height: 52px;
+}
+@media (max-width: 900px) {
+  .Article-News .container .article-news-header .btn-transparent {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 421px) {
+  .Article-News .container .article-news-header .btn-transparent {
+    width: 171px;
+    height: 56px;
+    margin-top: 200px;
+    white-space: nowrap;
+  }
+}
+.Article-News .container .articles-main {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1400px) {
+  .Article-News .container .articles-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 421px) {
+  .Article-News .container .articles-main {
+    display: none;
+  }
+}
+.Article-News .container .articles-main .digitalization .image-women-main {
+  position: relative;
+}
+.Article-News .container .articles-main .digitalization .image-women-main .image-main-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 56px;
+  height: 64px;
+  background: #f9d783;
+  top: 16px;
+  left: 16px;
+}
+.Article-News .container .articles-main .digitalization .image-women-main .image-main-square .image-main-square-numbers {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .digitalization .image-women-main .image-main-square .image-main-square-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: center;
+  color: rgba(25, 25, 25, 0.7);
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .digitalization #header {
+  margin-top: 28px;
+}
+.Article-News .container .articles-main .digitalization p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Article-News .container .articles-main .digitalization h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+.Article-News .container .articles-main .Implement .image-text {
+  position: relative;
+}
+.Article-News .container .articles-main .Implement .image-text .image-main-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 56px;
+  height: 64px;
+  background: #f9d783;
+  top: 16px;
+  left: 16px;
+}
+.Article-News .container .articles-main .Implement .image-text .image-main-square .image-main-square-numbers {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .Implement .image-text .image-main-square .image-main-square-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: center;
+  color: rgba(25, 25, 25, 0.7);
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .Implement #header {
+  margin-top: 28px;
+}
+.Article-News .container .articles-main .Implement p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Article-News .container .articles-main .Implement h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+.Article-News .container .articles-main .Support-Modern .image-book {
+  position: relative;
+}
+.Article-News .container .articles-main .Support-Modern .image-book .image-main-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 56px;
+  height: 64px;
+  background: #f9d783;
+  top: 16px;
+  left: 16px;
+}
+.Article-News .container .articles-main .Support-Modern .image-book .image-main-square .image-main-square-numbers {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .Support-Modern .image-book .image-main-square .image-main-square-text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: center;
+  color: rgba(25, 25, 25, 0.7);
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Article-News .container .articles-main .Support-Modern #header {
+  margin-top: 28px;
+}
+.Article-News .container .articles-main .Support-Modern p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  text-align: left;
+  color: rgba(25, 25, 25, 0.7);
+}
+.Article-News .container .articles-main .Support-Modern h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  text-align: left;
+  color: #191919;
+  margin-top: 21px;
+  margin-bottom: 20px;
+}
+.Article-News .container .dots-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
+  margin-bottom: 90px;
+}
+.Article-News .container .dots-menu .dots-menu-li {
+  width: 12px;
+  height: 12px;
+  opacity: 0.2;
+}
+.Article-News .container .dots-menu .dots-menu-2 {
+  width: 12px;
+  height: 12px;
+}
+
 .newsletter {
   background-color: #F0EFE9;
   position: relative;
