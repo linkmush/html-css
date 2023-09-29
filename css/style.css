@@ -519,6 +519,21 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: rgba(25, 25, 25, 0.7);
   margin-top: 8px;
 }
+.Meet-our-team .container .dots-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Meet-our-team .container .dots-menu .dots-menu-li {
+  width: 12px;
+  height: 12px;
+  opacity: 0.2;
+}
+.Meet-our-team .container .dots-menu .dots-menu-2 {
+  width: 12px;
+  height: 12px;
+}
 
 .logos .container {
   display: none;

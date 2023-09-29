@@ -598,6 +598,24 @@ header {
                 }
             }
         }
+
+        .dots-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+            .dots-menu-li {
+                width: 12px;
+                height: 12px;
+                opacity: 0.20;
+            }
+
+            .dots-menu-2 {
+                width: 12px;
+                height: 12px;
+            }
+        }
     }
 }
 
