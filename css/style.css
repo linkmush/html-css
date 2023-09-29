@@ -534,6 +534,169 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 12px;
   height: 12px;
 }
+.Meet-our-team .container .Testimonial-section {
+  background: #FFFFFF;
+  height: 887px;
+  margin-bottom: 120px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-header p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  text-align: center;
+  color: #f94d1c;
+  margin-top: 120px;
+}
+@media (max-width: 1200px) {
+  .Meet-our-team .container .Testimonial-section .Testimonial-header p {
+    margin-top: 30px;
+  }
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-header h2 {
+  font-family: "DM Sans";
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+  font-style: normal;
+  text-align: center;
+  color: #191919;
+  margin-top: 18px;
+}
+@media (max-width: 1200px) {
+  .Meet-our-team .container .Testimonial-section .Testimonial-header h2 {
+    font-size: 35px;
+  }
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 88px;
+}
+@media (max-width: 1200px) {
+  .Meet-our-team .container .Testimonial-section .Testimonial-main {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 {
+  margin-right: 94px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .fa-star {
+  color: #f94d1c;
+  width: 14.7px;
+  height: 14px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .buisness-manager {
+  display: flex;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .buisness-manager .buisness-manager-1 {
+  width: 70px;
+  height: 70px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .buisness-manager .buisness-manager-text {
+  margin-left: 16px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .buisness-manager .buisness-manager-text h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  color: #191919;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-1 .buisness-manager .buisness-manager-text p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  color: #f94d1c;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 {
+  margin-right: 94px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .fa-star {
+  color: #f94d1c;
+  width: 14.7px;
+  height: 14px;
+}
+@media (max-width: 1200px) {
+  .Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .fa-star {
+    margin-top: 30px;
+  }
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .senior-develepor {
+  display: flex;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .senior-develepor .Senior-Developer-1 {
+  width: 70px;
+  height: 70px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .senior-develepor .senior-develepor-text {
+  margin-left: 16px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .senior-develepor .senior-develepor-text h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  color: #191919;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-2 .senior-develepor .senior-develepor-text p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  color: #f94d1c;
+}
+@media (max-width: 1200px) {
+  .Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 {
+    display: none;
+  }
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .fa-star {
+  color: #f94d1c;
+  width: 14.7px;
+  height: 14px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .key-account-manager {
+  display: flex;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .key-account-manager .key-account-manager-1 {
+  width: 70px;
+  height: 70px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .key-account-manager .key-account-manager-text {
+  margin-left: 16px;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .key-account-manager .key-account-manager-text h3 {
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  font-style: normal;
+  color: #191919;
+}
+.Meet-our-team .container .Testimonial-section .Testimonial-main .Testimonial-main-3 .key-account-manager .key-account-manager-text p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  font-style: normal;
+  color: #f94d1c;
+}
+.Meet-our-team .container .center-btn-black {
+  display: flex;
+  justify-content: center;
+}
+.Meet-our-team .container .center-btn-black .btn-black {
+  margin-top: 96px;
+}
 
 .logos .container {
   display: none;
