@@ -7,6 +7,7 @@
     <meta name="author" content="Crito">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ab92be6b46.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style2.css">
     <title>Crito</title>
@@ -63,6 +64,54 @@
                 <div class="content">
                     <h1>Let’s Connect</h1>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="square-info">
+                <div class="square-info-adress">
+                    <div class="icon-container">
+                        <ion-icon class="location-icon" name="location-outline"></ion-icon>
+                      </div>
+                    <div class="square-info-text">
+                        <h2>Visit us</h2>
+                        <p>Sveavägen 31<br>111 34 STOCKHOLM</p>
+                    </div>
+                </div>
+                <div class="square-info-phone">
+                    <div class="icon-container">
+                        <ion-icon name="call-outline" class="phone-icon"></ion-icon>
+                      </div>
+                    <div class="square-info-text">
+                        <h2>Call us</h2>
+                        <p>+46 (8) 121 470 50<br>+46 (8) 121 470 51</p>
+                    </div>
+                </div>
+                <div class="square-info-email">
+                    <div class="icon-container">
+                        <ion-icon class="email-icon" name="mail-outline"></ion-icon>
+                      </div>
+                    <div class="square-info-text">
+                        <h2>Call us</h2>
+                        <p>info@crito.com<br>support@crito.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-page">
+                <form action="submit.php" method="post">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                
+                    <label for="message">Your Message*</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </section>
