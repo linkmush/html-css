@@ -221,69 +221,58 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .showcase .container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.showcase .container .main-menu-showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showcase .container .main-menu-showcase nav {
+  margin-top: 106px;
+}
+.showcase .container .main-menu-showcase nav .active-home {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  font-style: normal;
+  color: rgba(25, 25, 25, 0.8);
+  text-decoration: none;
+  margin-right: 15px;
+}
+.showcase .container .main-menu-showcase nav .active-contact {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  font-style: normal;
+  color: #191919;
+  text-decoration: none;
 }
 .showcase .container .content {
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
 }
-@media (min-width: 1200px) {
-  .showcase .container .content {
-    text-align: left;
-  }
-}
 .showcase .container .content h1 {
   font-family: "DM Sans";
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 64px;
+  font-style: normal;
+  text-align: center;
   color: #191919;
+  margin-top: -30px;
+  margin-bottom: 92px;
 }
-@media (min-width: 768px) {
-  .showcase .container .content h1 {
-    font-size: 56px;
-  }
-}
-@media (min-width: 1400px) {
-  .showcase .container .content h1 {
-    font-size: 86px;
-  }
-}
-.showcase .container .content p {
-  font-size: 16px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: rgba(25, 25, 25, 0.7);
-}
-@media (min-width: 768px) {
-  .showcase .container .content p {
-    font-size: 20px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-.showcase .container .content a {
-  margin-right: 0px;
-  display: block;
-  margin-bottom: 20px;
-}
-@media (min-width: 768px) {
-  .showcase .container .content a {
-    margin-right: 10px;
-    display: inline-block;
-  }
-}
-.showcase .container img {
-  display: none;
-  margin-right: -50px;
-}
-@media (min-width: 1430px) {
-  .showcase .container img {
-    display: block;
-  }
+
+.map .responsive {
+  width: 100%;
+  height: auto;
 }
 
 .footer {
