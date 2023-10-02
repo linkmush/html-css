@@ -319,6 +319,7 @@ header {
         .square-info {
             display: flex;
             justify-content: space-between;
+            margin-top: 120px;
 
             @media (max-width: 1400px) {
                 display: flex;
@@ -446,6 +447,10 @@ header {
                 border-width: 1px;
                 border-style: solid;
 
+                @media (max-width: 1400px) {
+                    margin-bottom: 15px;
+                }
+
                 .icon-container {
                     width: 64px;
                     height: 64px;
@@ -489,6 +494,79 @@ header {
                         color: rgba(25,25,25,0.8 );
                     }
                 }
+            }
+        }
+    }
+
+    .square-form-page {
+        width: 100%;
+        max-width: 1320px;
+        height: 820px;
+        background: #f0efe9;
+        position: relative;
+        margin-top: 80px;
+        margin-bottom: 120px;
+
+        @media (max-width: 1400px) {
+            display: none;
+        }
+
+        .square-form-header {
+
+            h2 {
+                font-family: "DM Sans";
+                font-size: 45px;
+                font-weight: bold;
+                line-height: 55px;
+                font-style: normal;
+                text-align: center;
+                color: #191919;
+                position: absolute;
+                margin-top: 124px;
+                margin-left: 440px;
+            }
+        }
+
+        .form-style {
+            position: absolute;
+            margin-top: 262px;
+            margin-left: 153px;
+
+            #name {
+                width: 100%;
+                max-width: 1021px;
+                height: 56px;
+                border-radius: 40px;
+                background: #ffffff;
+                padding-left: 38px;
+                border: none;
+            }
+
+            #email {
+                width: 100%;
+                max-width: 1021px;
+                height: 56px;
+                border-radius: 40px;
+                background: #ffffff;
+                padding-left: 38px;
+                border: none;
+            }
+
+            #message {
+                width: 100%;
+                max-width: 1021px;
+                height: 160px;
+                border-radius: 40px;
+                background: #ffffff;
+                resize: none;
+                padding-left: 38px;
+                padding-top: 12px;
+                border: none;
+            }
+
+            .btn-yellow {
+                width: 1021px;
+                margin-bottom: 100px;
             }
         }
     }
