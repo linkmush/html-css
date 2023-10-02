@@ -324,6 +324,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .project-section .container .project-and-cases article img {
   width: 100%;
   height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .project-section .container .project-and-cases article h3 {
   font-family: "DM Sans", sans-serif;
@@ -426,6 +427,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .Meet-our-team .container .team-members .team-member-1 img {
   width: 308px;
   height: 420px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Meet-our-team .container .team-members .team-member-1 h3 {
   font-family: "DM Sans";
@@ -450,6 +452,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .Meet-our-team .container .team-members .team-member-2 img {
   width: 307px;
   height: 420px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Meet-our-team .container .team-members .team-member-2 h3 {
   font-family: "DM Sans";
@@ -474,6 +477,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .Meet-our-team .container .team-members .team-member-3 img {
   width: 308px;
   height: 420px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Meet-our-team .container .team-members .team-member-3 h3 {
   font-family: "DM Sans";
@@ -498,6 +502,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .Meet-our-team .container .team-members .team-member-4 img {
   width: 307px;
   height: 420px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Meet-our-team .container .team-members .team-member-4 h3 {
   font-family: "DM Sans";
@@ -539,6 +544,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   background: #FFFFFF;
   height: 887px;
   margin-bottom: 120px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Meet-our-team .container .Testimonial-section .Testimonial-header p {
   font-family: "Inter";
@@ -830,6 +836,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 122px;
   margin-bottom: 120px;
   margin-left: 156px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .about-company .container .founder .square-picture {
   position: absolute;
@@ -841,6 +848,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 515px;
   z-index: 2;
   background: #beebff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .about-company .container .founder .square-picture h4 {
   width: 247px;
@@ -1043,7 +1051,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   border: 1px solid #ccc;
   text-align: left;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 308px;
   height: 333px;
   margin-top: 48px;
@@ -1114,6 +1122,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   position: absolute;
   right: 0;
   margin-top: 266px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 1465px) {
   .why-choose-us .backround-square {
@@ -1204,6 +1213,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-left: 300px;
   margin-top: 88px;
   z-index: -1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (max-width: 1400px) {
   .why-choose-us .container .why-choose-us-img .two-women-img {
@@ -1285,6 +1295,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .Article-News .container .articles-main .digitalization .image-women-main {
   position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Article-News .container .articles-main .digitalization .image-women-main .image-main-square {
   display: flex;
@@ -1349,6 +1360,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .Article-News .container .articles-main .Implement .image-text {
   position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Article-News .container .articles-main .Implement .image-text .image-main-square {
   display: flex;
@@ -1413,6 +1425,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .Article-News .container .articles-main .Support-Modern .image-book {
   position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .Article-News .container .articles-main .Support-Modern .image-book .image-main-square {
   display: flex;

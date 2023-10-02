@@ -365,6 +365,7 @@ header {
                 img {
                     width: 100%;
                     height: auto;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 }
 
                 h3 {
@@ -482,6 +483,7 @@ header {
                 img {
                     width: 308px;
                     height: 420px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 }
 
                 h3 {
@@ -512,6 +514,7 @@ header {
                 img {
                     width: 307px;
                     height: 420px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 }
 
                 h3 {
@@ -542,6 +545,7 @@ header {
                 img {
                     width: 308px;
                     height: 420px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 }
 
                 h3 {
@@ -572,6 +576,7 @@ header {
                 img {
                     width: 307px;
                     height: 420px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
                 }
 
                 h3 {
@@ -621,6 +626,7 @@ header {
             background: #FFFFFF;
             height: 887px;
             margin-bottom: 120px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
             .Testimonial-header {
 
@@ -956,6 +962,7 @@ header {
                 margin-top: 122px;
                 margin-bottom: 120px;
                 margin-left: 156px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             }
 
             .square-picture {
@@ -968,6 +975,7 @@ header {
                 margin-top: 515px;
                 z-index: 2;
                 background: #beebff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
                 h4 {
                     width: 247px;
@@ -1190,7 +1198,7 @@ header {
                 border: 1px solid #ccc;
                 text-align: left; 
                 padding: 20px; 
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                 width: 308px;
                 height: 333px;
                 margin-top: 48px;
@@ -1271,6 +1279,7 @@ header {
         position: absolute;
         right: 0;
         margin-top: 266px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
         @media (max-width: 1465px) {
             display: none;
@@ -1376,6 +1385,7 @@ header {
                 margin-left: 300px;
                 margin-top: 88px;
                 z-index: -1;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
                 @media (max-width: 1400px) {
                     display: none;
@@ -1465,6 +1475,7 @@ header {
 
                 .image-women-main {
                     position: relative;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
                     .image-main-square {
                         display: flex;
@@ -1539,6 +1550,7 @@ header {
 
                 .image-text {
                     position: relative;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
                     .image-main-square {
                         display: flex;
@@ -1613,6 +1625,7 @@ header {
 
                 .image-book {
                     position: relative;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
                     .image-main-square {
                         display: flex;
