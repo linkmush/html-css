@@ -490,6 +490,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-weight: 700;
   font-size: 35px;
   text-align: center;
+  white-space: nowrap;
 }
 @media (min-width: 768px) {
   .message-form .container h2 {
