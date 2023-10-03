@@ -1163,36 +1163,6 @@ header {
             }
         }
 
-            #box-yellow {
-                background-color: #F9D783;
-            }
-
-            .circle-arrow-yellow {
-                width: 56px;
-                height: 56px;
-                border-radius: 50%;
-                background-color: #FFFFFF;
-                color: #191919;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-left: auto;
-                outline: none;
-
-                #arrow {
-                    width: 26px;
-                    height: 26px;
-                }
-
-                &:hover {
-                    background-color: #191919;
-                    border: 1px solid #191919;
-                    color: #F0EFE9;
-                    transition: .3s ease-in-out;
-                }
-            }
-
-
             article {
                 background-color: #ffffff;
                 border: 1px solid #ccc;
@@ -1206,6 +1176,13 @@ header {
                 margin-bottom: 48px;
                 display: flex;
                 flex-direction: column;
+
+                &:hover {
+                    background-color: #f9d783;
+                    border: 1px solid #f9d783;
+                    color: #191919;
+                    transition: .3s ease-in-out;
+                }
 
                 h3 {
                     font-family: "DM Sans";
@@ -1238,21 +1215,19 @@ header {
                     justify-content: center;
                     align-items: center;
                     margin-left: auto;
+                    outline: none;
 
                     #arrow {
                         width: 26px;
                         height: 26px;
                     }
-
-                    &:hover {
-                        background-color: #f9d783;
-                        border: 1px solid #f9d783;
-                        color: #191919;
-                        transition: .3s ease-in-out;
-                    }
                 }
             }
-        
+
+            .four-squares article:hover .circle-arrow {
+                background-color: #FFFFFF;
+                color: #191919;
+            }
 
         .center-button {
             display: flex;
