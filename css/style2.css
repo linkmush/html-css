@@ -270,31 +270,37 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-bottom: 92px;
 }
 
-.form .container .square-info {
+.contact-info .container .square-info {
   display: flex;
   justify-content: space-between;
   margin-top: 120px;
 }
 @media (max-width: 1400px) {
-  .form .container .square-info {
+  .contact-info .container .square-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
-.form .container .square-info .square-info-adress {
+.contact-info .container .square-info .square-info-adress {
   display: flex;
   width: 420px;
   height: 206px;
   border-color: rgba(25, 25, 25, 0.2);
   border-width: 1px;
   border-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 1400px) {
-  .form .container .square-info .square-info-adress {
+  .contact-info .container .square-info .square-info-adress {
     margin-bottom: 15px;
+    margin-top: -100px;
+    width: 320px;
+    height: 206px;
   }
 }
-.form .container .square-info .square-info-adress .icon-container {
+.contact-info .container .square-info .square-info-adress .icon-container {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -306,16 +312,21 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 48px;
   margin-left: 60px;
 }
-.form .container .square-info .square-info-adress .location-icon {
+@media (max-width: 1400px) {
+  .contact-info .container .square-info .square-info-adress .icon-container {
+    margin-left: 30px;
+  }
+}
+.contact-info .container .square-info .square-info-adress .location-icon {
   font-size: 24px;
   color: #ffffff;
 }
-.form .container .square-info .square-info-adress .square-info-text {
+.contact-info .container .square-info .square-info-adress .square-info-text {
   flex-direction: column;
   margin-left: 24px;
   margin-top: 54px;
 }
-.form .container .square-info .square-info-adress .square-info-text h2 {
+.contact-info .container .square-info .square-info-adress .square-info-text h2 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -324,7 +335,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   text-align: left;
   color: #191919;
 }
-.form .container .square-info .square-info-adress .square-info-text p {
+.contact-info .container .square-info .square-info-adress .square-info-text p {
   font-family: "Inter";
   font-size: 18px;
   font-weight: normal;
@@ -333,20 +344,23 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   text-align: left;
   color: rgba(25, 25, 25, 0.8);
 }
-.form .container .square-info .square-info-phone {
+.contact-info .container .square-info .square-info-phone {
   display: flex;
   width: 420px;
   height: 206px;
   border-color: rgba(25, 25, 25, 0.2);
   border-width: 1px;
   border-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 1400px) {
-  .form .container .square-info .square-info-phone {
+  .contact-info .container .square-info .square-info-phone {
+    width: 320px;
+    height: 206px;
     margin-bottom: 15px;
   }
 }
-.form .container .square-info .square-info-phone .icon-container {
+.contact-info .container .square-info .square-info-phone .icon-container {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -358,16 +372,21 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 48px;
   margin-left: 60px;
 }
-.form .container .square-info .square-info-phone .phone-icon {
+@media (max-width: 1400px) {
+  .contact-info .container .square-info .square-info-phone .icon-container {
+    margin-left: 30px;
+  }
+}
+.contact-info .container .square-info .square-info-phone .phone-icon {
   font-size: 24px;
   color: #ffffff;
 }
-.form .container .square-info .square-info-phone .square-info-text {
+.contact-info .container .square-info .square-info-phone .square-info-text {
   flex-direction: column;
   margin-left: 24px;
   margin-top: 54px;
 }
-.form .container .square-info .square-info-phone .square-info-text h2 {
+.contact-info .container .square-info .square-info-phone .square-info-text h2 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -376,7 +395,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   text-align: left;
   color: #191919;
 }
-.form .container .square-info .square-info-phone .square-info-text p {
+.contact-info .container .square-info .square-info-phone .square-info-text p {
   font-family: "Inter";
   font-size: 18px;
   font-weight: normal;
@@ -384,20 +403,23 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-style: normal;
   color: rgba(25, 25, 25, 0.8);
 }
-.form .container .square-info .square-info-email {
+.contact-info .container .square-info .square-info-email {
   display: flex;
   width: 420px;
   height: 206px;
   border-color: rgba(25, 25, 25, 0.2);
   border-width: 1px;
   border-style: solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 1400px) {
-  .form .container .square-info .square-info-email {
-    margin-bottom: 15px;
+  .contact-info .container .square-info .square-info-email {
+    width: 320px;
+    height: 206px;
+    margin-bottom: -60px;
   }
 }
-.form .container .square-info .square-info-email .icon-container {
+.contact-info .container .square-info .square-info-email .icon-container {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -409,16 +431,21 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 48px;
   margin-left: 60px;
 }
-.form .container .square-info .square-info-email .email-icon {
+@media (max-width: 1400px) {
+  .contact-info .container .square-info .square-info-email .icon-container {
+    margin-left: 30px;
+  }
+}
+.contact-info .container .square-info .square-info-email .email-icon {
   font-size: 24px;
   color: #ffffff;
 }
-.form .container .square-info .square-info-email .square-info-text {
+.contact-info .container .square-info .square-info-email .square-info-text {
   flex-direction: column;
   margin-left: 24px;
   margin-top: 54px;
 }
-.form .container .square-info .square-info-email .square-info-text h2 {
+.contact-info .container .square-info .square-info-email .square-info-text h2 {
   font-family: "DM Sans";
   font-size: 22px;
   font-weight: bold;
@@ -427,7 +454,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   text-align: left;
   color: #191919;
 }
-.form .container .square-info .square-info-email .square-info-text p {
+.contact-info .container .square-info .square-info-email .square-info-text p {
   font-family: "Inter";
   font-size: 18px;
   font-weight: normal;
@@ -435,72 +462,78 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-style: normal;
   text-align: left;
   color: rgba(25, 25, 25, 0.8);
-}
-.form .square-form-page {
-  width: 100%;
-  max-width: 1320px;
-  height: 820px;
-  background: #f0efe9;
-  position: relative;
-  margin-top: 80px;
-  margin-bottom: 120px;
-}
-@media (max-width: 1400px) {
-  .form .square-form-page {
-    display: none;
-  }
-}
-.form .square-form-page .square-form-header h2 {
-  font-family: "DM Sans";
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 55px;
-  font-style: normal;
-  text-align: center;
-  color: #191919;
-  position: absolute;
-  margin-top: 124px;
-  margin-left: 440px;
-}
-.form .square-form-page .form-style {
-  position: absolute;
-  margin-top: 262px;
-  margin-left: 153px;
-}
-.form .square-form-page .form-style #name {
-  width: 100%;
-  max-width: 1021px;
-  height: 56px;
-  border-radius: 40px;
-  background: #ffffff;
-  padding-left: 38px;
-  border: none;
-}
-.form .square-form-page .form-style #email {
-  width: 100%;
-  max-width: 1021px;
-  height: 56px;
-  border-radius: 40px;
-  background: #ffffff;
-  padding-left: 38px;
-  border: none;
-}
-.form .square-form-page .form-style #message {
-  width: 100%;
-  max-width: 1021px;
-  height: 160px;
-  border-radius: 40px;
-  background: #ffffff;
-  resize: none;
-  padding-left: 38px;
-  padding-top: 12px;
-  border: none;
-}
-.form .square-form-page .form-style .btn-yellow {
-  width: 1021px;
-  margin-bottom: 100px;
 }
 
+.message-form .container {
+  background-color: #F0EFE9;
+  padding: 60px 30px;
+  margin-top: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  .message-form .container {
+    padding: 70px 60px;
+  }
+}
+@media (min-width: 992px) {
+  .message-form .container {
+    padding: 80px 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .message-form .container {
+    padding: 120px 170px 100px;
+  }
+}
+.message-form .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .message-form .container h2 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 992px) {
+  .message-form .container h2 {
+    margin: 0 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .message-form .container h2 {
+    margin: 0 180px;
+  }
+}
+@media (min-width: 1400px) {
+  .message-form .container h2 {
+    margin: 0 280px;
+  }
+}
+.message-form .container form .form-input {
+  display: block;
+  width: 100%;
+  padding: 10px 25px;
+  color: #7F7F7F;
+  border: none;
+  border-radius: 25px;
+}
+.message-form .container form textarea {
+  resize: none;
+  height: 150px;
+}
+
+@media (max-width: 1400px) {
+  .map {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1400px) {
+  .map {
+    margin-top: 120px;
+  }
+}
 .map .responsive {
   width: 100%;
   height: auto;
