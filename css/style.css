@@ -732,6 +732,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     height: 700px;
     margin-top: 80px;
     justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
 .features .container .section-title-button p {
