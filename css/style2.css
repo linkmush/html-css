@@ -126,11 +126,11 @@ header .container .menu .top-menu .contact-information .phone {
   font-family: "Inter";
   font-size: 1.2em;
   color: #191919;
-  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .phone a {
   margin-right: 6px;
   color: #191919;
+  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .phone a:hover {
   color: #f7b206;
@@ -142,11 +142,11 @@ header .container .menu .top-menu .contact-information .email {
   font-family: "Inter";
   font-size: 1.2em;
   color: #191919;
-  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .email a {
   margin-right: 9px;
   color: #191919;
+  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .email a:hover {
   color: #f7b206;
@@ -156,11 +156,11 @@ header .container .menu .top-menu .contact-information .location {
   font-size: 15px;
   font-size: 1.2em;
   color: #191919;
-  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .location a {
   margin-right: 8px;
   color: #191919;
+  transition: all 0.3s ease-in-out;
 }
 header .container .menu .top-menu .contact-information .location a:hover {
   color: #f7b206;
