@@ -429,6 +429,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   height: 420px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 328px) {
+  .Meet-our-team .container .team-members .team-member-1 img {
+    width: 275px;
+  }
+}
 .Meet-our-team .container .team-members .team-member-1 h3 {
   font-family: "DM Sans";
   font-size: 22px;
@@ -453,6 +458,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 307px;
   height: 420px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 328px) {
+  .Meet-our-team .container .team-members .team-member-2 img {
+    width: 275px;
+  }
 }
 .Meet-our-team .container .team-members .team-member-2 h3 {
   font-family: "DM Sans";
@@ -479,6 +489,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   height: 420px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 328px) {
+  .Meet-our-team .container .team-members .team-member-3 img {
+    width: 275px;
+  }
+}
 .Meet-our-team .container .team-members .team-member-3 h3 {
   font-family: "DM Sans";
   font-size: 22px;
@@ -503,6 +518,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 307px;
   height: 420px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 328px) {
+  .Meet-our-team .container .team-members .team-member-4 img {
+    width: 275px;
+  }
 }
 .Meet-our-team .container .team-members .team-member-4 h3 {
   font-family: "DM Sans";
@@ -545,6 +565,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   height: 887px;
   margin-bottom: 120px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 374px) {
+  .Meet-our-team .container .Testimonial-section {
+    display: none;
+  }
 }
 .Meet-our-team .container .Testimonial-section .Testimonial-header p {
   font-family: "Inter";
@@ -704,6 +729,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .Meet-our-team .container .center-btn-black .btn-black {
   margin-top: 96px;
 }
+@media (max-width: 380px) {
+  .Meet-our-team .container .center-btn-black .btn-black {
+    margin-top: 15px;
+  }
+}
 
 .logos .container {
   display: none;
@@ -768,7 +798,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 @media (max-width: 686px) {
   .features .container .section-title-button .btn-yellow {
-    width: 338px;
+    width: 238px;
     margin-bottom: 5px;
   }
 }
@@ -929,6 +959,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 180px;
   height: 56px;
 }
+@media (max-width: 332px) {
+  .about-company .container .consulting-credit .about-company-buttons .btn-black {
+    display: none;
+  }
+}
 .about-company .container .consulting-credit .about-company-buttons .play-video {
   width: 48px;
   height: 48px;
@@ -949,6 +984,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   transition: 0.3s ease-in-out;
 }
+@media (max-width: 336px) {
+  .about-company .container .consulting-credit .about-company-buttons .play-video {
+    display: none;
+  }
+}
 .about-company .container .consulting-credit .about-company-buttons .intro-video {
   font-family: "Inter";
   font-size: 16px;
@@ -957,6 +997,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   color: #191919;
   margin-left: 16px;
   margin-top: 15px;
+}
+@media (max-width: 336px) {
+  .about-company .container .consulting-credit .about-company-buttons .intro-video {
+    display: none;
+  }
 }
 
 .our-services {
@@ -1130,6 +1175,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-bottom: 48px;
   white-space: nowrap;
 }
+@media (max-width: 380px) {
+  .why-choose-us .container .header-tags h2 {
+    font-size: 30px;
+  }
+}
 .why-choose-us .container .header-tags .header-tags-p {
   font-family: "Inter";
   font-size: 18px;
@@ -1210,6 +1260,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 544px) {
+  .Article-News .container .article-news-header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .Article-News .container .article-news-header .article-news-header-text p {
   font-family: "Inter";
   font-size: 18px;
@@ -1245,17 +1301,10 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   width: 221px;
   height: 52px;
 }
-@media (max-width: 900px) {
+@media (max-width: 544px) {
   .Article-News .container .article-news-header .btn-transparent {
-    margin-bottom: 5px;
-  }
-}
-@media (max-width: 421px) {
-  .Article-News .container .article-news-header .btn-transparent {
-    width: 171px;
-    height: 56px;
-    margin-top: 200px;
-    white-space: nowrap;
+    margin-top: -15px;
+    margin-bottom: 20px;
   }
 }
 .Article-News .container .articles-main {
@@ -1476,6 +1525,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   margin-top: 66px;
   margin-bottom: 90px;
 }
+@media (max-width: 420px) {
+  .Article-News .container .dots-menu {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+}
 .Article-News .container .dots-menu .dots-menu-li {
   width: 12px;
   height: 12px;
@@ -1508,10 +1563,21 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 424px) {
+  .newsletter .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .newsletter .container h2 {
   font-family: "DM Sans";
   font-size: 45px;
   font-weight: bold;
+}
+@media (max-width: 326px) {
+  .newsletter .container h2 {
+    font-size: 30px;
+  }
 }
 .newsletter .container form input {
   color: #191919;
@@ -1535,6 +1601,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
     border: 1px solid #DAD9D3;
     margin-right: 20px;
     width: 308px;
+  }
+}
+@media (max-width: 974px) {
+  .newsletter .container form .btn-yellow {
+    margin-top: 5px;
   }
 }
 

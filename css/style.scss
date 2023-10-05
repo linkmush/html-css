@@ -484,6 +484,10 @@ header {
                     width: 308px;
                     height: 420px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                    @media (max-width: 328px) {
+                        width: 275px;
+                    }
                 }
 
                 h3 {
@@ -515,6 +519,10 @@ header {
                     width: 307px;
                     height: 420px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                    @media (max-width: 328px) {
+                        width: 275px;
+                    }
                 }
 
                 h3 {
@@ -546,6 +554,10 @@ header {
                     width: 308px;
                     height: 420px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                    @media (max-width: 328px) {
+                        width: 275px;
+                    }
                 }
 
                 h3 {
@@ -577,6 +589,10 @@ header {
                     width: 307px;
                     height: 420px;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                    @media (max-width: 328px) {
+                        width: 275px;
+                    }
                 }
 
                 h3 {
@@ -627,6 +643,10 @@ header {
             height: 887px;
             margin-bottom: 120px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            @media (max-width: 374px) {
+                display: none;
+            }
 
             .Testimonial-header {
 
@@ -812,6 +832,10 @@ header {
 
             .btn-black {
                 margin-top: 96px;
+
+                @media (max-width: 380px) {
+                    margin-top: 15px;
+                }
             }
         }
     }
@@ -885,7 +909,7 @@ header {
                 margin-top: 48px;
 
                 @media (max-width: 686px) {
-                    width: 338px;
+                    width: 238px;
                     margin-bottom: 5px;
                 }
             }
@@ -1062,6 +1086,10 @@ header {
                 .btn-black {
                     width: 180px;
                     height: 56px;
+
+                    @media (max-width: 332px) {
+                        display: none;
+                    }
                 }
 
                 .play-video {
@@ -1084,6 +1112,10 @@ header {
                         color: #191919;
                         transition: .3s ease-in-out;
                     }
+
+                    @media (max-width: 336px) {
+                        display: none;
+                    }
                 }
 
                 .intro-video {
@@ -1094,6 +1126,10 @@ header {
                     color: #191919;
                     margin-left: 16px;
                     margin-top: 15px;
+
+                    @media (max-width: 336px) {
+                        display: none;
+                    }
                 }
             }
         }
@@ -1283,8 +1319,11 @@ header {
                 color: #191919;
                 margin-top: 18px;
                 margin-bottom: 48px;
-
                 white-space: nowrap;
+
+                @media (max-width: 380px) {
+                    font-size: 30px;
+                }
             }
 
             .header-tags-p {
@@ -1382,6 +1421,11 @@ header {
             display: flex;
             justify-content: space-between;
 
+            @media (max-width: 544px) {
+                display: flex;
+                flex-direction: column;
+            }
+
             .article-news-header-text {
 
                 p {
@@ -1420,15 +1464,9 @@ header {
                 width: 221px;
                 height: 52px;
 
-                @media (max-width: 900px) {
-                    margin-bottom: 5px;
-                }
-
-                @media (max-width: 421px) {
-                    width: 171px;
-                    height: 56px;
-                    margin-top: 200px;
-                    white-space: nowrap;
+                @media (max-width: 544px) {
+                    margin-top: -15px;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -1680,6 +1718,11 @@ header {
             margin-top: 66px;
             margin-bottom: 90px;
 
+            @media (max-width: 420px) {
+                margin-top: 5px;
+                margin-bottom: 30px;
+            }
+
             .dots-menu-li {
                 width: 12px;
                 height: 12px;
@@ -1717,10 +1760,19 @@ header {
         justify-content: space-between;
         align-items: center;
 
+        @media (max-width: 424px) {
+            display: flex;
+            flex-direction: column;
+        }
+
         h2 {
             font-family: "DM Sans";
             font-size: 45px;
             font-weight: bold;
+
+            @media (max-width: 326px) {
+                font-size: 30px;
+            }
         }
 
         form {
@@ -1745,6 +1797,13 @@ header {
                     border: 1px solid #DAD9D3;
                     margin-right: 20px;
                     width: 308px;
+                }
+            }
+
+            .btn-yellow {
+
+                @media (max-width: 974px) {
+                    margin-top: 5px;
                 }
             }
         }
